@@ -5,8 +5,8 @@ from app.people.cinema_staff import Cleaner
 
 
 def cinema_visit(
-        customers: list, hall_number: int, cleaner: str, movie: str
-                 ) -> None:
+    customers: list, hall_number: int, cleaner: str, movie: str
+) -> None:
     real_customers = []
     for customer in customers:
         a_real_customer = Customer(customer["name"], customer["food"])
